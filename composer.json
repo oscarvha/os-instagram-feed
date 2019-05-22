@@ -1,0 +1,13 @@
+{
+    "name": "oscar/os-instagram-feed",
+    "authors": [
+        {
+            "name": "Oscar Sanchez",
+            "email": "oscarsan1986@gmail.com"
+        }
+    ],
+
+    "require": {
+        "raiym/instagram-php-scraper": "^0.8.30"
+    }
+}
