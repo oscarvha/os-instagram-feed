@@ -1,10 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: oscar
- * Date: 22/05/19
- * Time: 20:33
- */
+
+require __DIR__ . '/../vendor/autoload.php';
 
 class InstagramScrap
 {
