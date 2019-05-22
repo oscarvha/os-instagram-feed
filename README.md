@@ -1,4 +1,4 @@
-# ${1: OS_INSTAGRAM_FEED}
+# OS_INSTAGRAM_FEED
 WP Plugin Return Media For intagram Plugin
 With Transient during 24 hours
 
