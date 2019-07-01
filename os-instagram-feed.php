@@ -19,9 +19,11 @@ function getMediasInstagramByAccount($account, $limit = 16)
     $medias = get_transient($account.'_feed');
 
     if($medias) {
-
-        return $medias;
+        if(count($medias) == $limit) {
+            return $medias;
+        }
     }
+
 
     $instagramScrapping = new InstagramScrap($account);
     $medias = $instagramScrapping->getMedias($limit);

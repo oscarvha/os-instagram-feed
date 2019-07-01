@@ -35,7 +35,9 @@ class InstagramScrap
                 'type' => $media->getType(),
                 'video' => $media->getVideoLowResolutionUrl(),
                 'image' => $media->getImageThumbnailUrl(),
-                'title' => $media->getCaption()
+                'title' => $media->getCaption(),
+                'comments' => $media->getCommentsCount(),
+                'likes' => $media->getLikesCount()
             ];
         }
 
